@@ -44,7 +44,7 @@ input {
   border-radius: 10px;
   padding: 0.5rem;
   text-align: center;
-  width: 25%;
+  width: 60%;
 }
 
 #calcular {
@@ -65,8 +65,29 @@ input {
   margin-top: 2rem;
 }
 
+footer {
+  padding: 0.6rem 0 0 0;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
 @media screen and (max-width: 768px) {
   body {
-    padding: 3rem 1rem;
+    padding: 2rem;
+  }
+
+  input {
+    width: 40%;
+  }
+
+  .paragrafo {
+    font-size: 1.2rem;
   }
 }
