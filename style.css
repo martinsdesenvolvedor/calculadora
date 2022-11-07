@@ -1,0 +1,72 @@
+body {
+  height: 100%;
+  background-image: url(./background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2rem 25rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operacao {
+  margin-bottom: 1rem;
+}
+
+legend {
+  margin-bottom: 0.3rem;
+}
+
+select {
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0.2rem;
+}
+
+label {
+  margin-bottom: 0.3rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  width: 25%;
+}
+
+#calcular {
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+#calcular:hover {
+  background: black;
+  color: darkgoldenrod;
+  width: 7rem;
+}
+
+.paragrafo {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 3rem 1rem;
+  }
+}
