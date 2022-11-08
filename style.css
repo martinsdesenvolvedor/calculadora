@@ -6,6 +6,7 @@ body {
   background-position: center;
   padding: 2rem 25rem;
   font-size: 1.5rem;
+  background-attachment: local;
 }
 
 h1 {
