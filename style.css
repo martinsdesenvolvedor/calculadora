@@ -4,9 +4,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 2rem 25rem;
+  padding: 4rem 25rem 0 25rem;
   font-size: 1.5rem;
-  background-attachment: local;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -32,7 +32,7 @@ select {
   text-align: center;
   width: 100%;
   border-radius: 10px;
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
 
 label {
@@ -45,7 +45,7 @@ input {
   border-radius: 10px;
   padding: 0.5rem;
   text-align: center;
-  width: 60%;
+  width: 30%;
 }
 
 #calcular {
@@ -67,7 +67,7 @@ input {
 }
 
 footer {
-  padding: 0.6rem 0 0 0;
+  padding: 1.7rem 0 0 0;
   text-align: center;
 }
 
@@ -81,7 +81,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 2rem;
+    padding: 2.5rem 2rem 0 2rem;
   }
 
   input {
@@ -90,5 +90,9 @@ footer p {
 
   .paragrafo {
     font-size: 1.2rem;
+  }
+
+  footer {
+    padding: 3rem 0 0 0;
   }
 }
